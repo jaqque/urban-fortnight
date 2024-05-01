@@ -27,6 +27,9 @@ compare memory usage between python String class's `replace()` method vs python 
   * using `readlines()` reads a lot into memory. Oops.
 * `*-free.py` uses explicit calls to `del` in a failed attempt to keep memory usage low
   * yeah, it's the `readlines()` problem still. 😳
+* `*-cm.py` uses context management, and low low low memory usage
+  * at least for `replace()`
+  * `sub()` sees no benefit at all
 * `compose.yaml` and `Containerfile` image and compose file to run the profiling tests
   * `podman-compose run profile`
   * `docker compose run profile`
