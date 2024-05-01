@@ -5,7 +5,7 @@
 
 convert a non-normalized list of song titles, sometimes with artist, sometimes with year to a normalized csv file
 
-* `New Paste 1.csv`
+* `New Paste 1.txt`
 * `to-csv.rb`
 
 ## two
