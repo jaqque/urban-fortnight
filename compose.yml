@@ -5,9 +5,5 @@ services:
     build:
       dockerfile: Containerfile
       context: .
-    deploy:
-      resources:
-        limits:
-          memory: 10M
     volumes:
       - ./:/app
